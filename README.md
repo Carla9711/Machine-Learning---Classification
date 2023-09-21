@@ -40,8 +40,12 @@ For this dataset, there were 5110 rows and 11 columns
   - Countplots were plotted for categorical data
 
 - After the exploratory analysis, an explanatory analysis was done on each feature in relation to the target:
-
+  - The bar plot below shows that the average age of people who has had strokes are higher than the average age of people who did not have strokes
+  - The strip plot overlaying the bar plot shows that there's 3 outliers where patients below the age of 35 have had strokes
 <img width="500" alt="Figure 1- Stroke vs Age" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/086e70b7-0903-43dd-85a9-8021ec493ea3">
+
+  - The count plot below shows that 4.2% of people that do not have a heart disease are likely to have a stoke
+  - This percentace increases to 17% for people who do have a heart disease
 
 <img width="500" alt="Figure 2 - Heart Disease vs Stroke" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/a5b4444a-b4db-498e-9800-1b745db3617a">
 
