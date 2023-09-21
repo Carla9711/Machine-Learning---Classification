@@ -34,6 +34,7 @@ For this dataset, there were 5110 rows and 11 columns
   -  Duplicate values were evaluated 
   -  Inconsistent categorical values were evaluated and replaced
   -  Impossible numerical values were evaluated and replaced
+  -  Unwanted columns were dropped
     
 - Each feature was explored:
   - Boxplots and histograms were ploted for numerical data
