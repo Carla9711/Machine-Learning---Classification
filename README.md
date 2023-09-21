@@ -9,7 +9,7 @@ A hospital board of directors would like to predict whether a patient is likely 
 
 ### Data:
 
-Stroke Prediciton Dataset: [[https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view?usp=sharing](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+Stroke Prediciton Dataset: (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
 For this dataset, there were 8523 rows and 12 columns
 
