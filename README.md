@@ -41,7 +41,7 @@ For this dataset, there were 5110 rows and 11 columns
 
 - After the exploratory analysis, an explanatory analysis was done on each feature in relation to the target:
   
-  - The bar plot below shows that the average age of people who has had strokes are higher than the average age of people who did not have strokes
+  - The bar plot below shows that the average age of people who had strokes are higher than the average age of people who did not have strokes
   - The strip plot overlaying the bar plot shows that there's 3 outliers where patients below the age of 35 have had strokes
     
 <img width="500" alt="Figure 1- Stroke vs Age" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/086e70b7-0903-43dd-85a9-8021ec493ea3">
@@ -51,42 +51,44 @@ For this dataset, there were 5110 rows and 11 columns
 
 <img width="500" alt="Figure 2 - Heart Disease vs Stroke" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/a5b4444a-b4db-498e-9800-1b745db3617a">
 
-
-
-  
-- Each feature was assessed in terms of cardinality, the business case and the relation to the target. The following features were dropped from the dataset
-  - Outlet_Identifier is not a property of the outlet and was therefore dropped.
-  - Item_Type had a high cardinality of 16 and each item type had a similar distribution of sales and was therefore dropped.
- 
 - The following steps were taken to prepare the data for modeling
   - Numerical Columns
     - Missing values were imputed with the median
     - Columns were scaled   
   - Ordinal
-    - Columns were ordinal encoded and scaled
+    - Columns were binary encoded and scaled
   - Nominal
     - Columns were hot one encoded        
 
 ## Results
-- Two models were fitted and evaluated:
+- Three models were fitted and evaluated:
   - Logistic Regression
   - K Nearest Neighbors
+  - XGBoost Classifier
+- Various forms of undersampling, oversampling and tuning were applied to each model
 
-The final results of each model is displayed below
+The Logistic Regression model with Undersampling performed the best. The results for this model are displayed below:
 
-<img width="346" alt="Model Results" src="https://github.com/Carla9711/Prediction-of-Product-Sales/assets/138701194/1e83c1d8-aea6-4877-a7d2-096482bb1410">
+<img width="668" alt="Best Model_Confusion Matrix" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/a445b21c-0e9d-4745-a2fa-68511f870fba">
 
-## Model
+<img width="275" alt="Best Model_Classification Report" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/e4b6801a-38db-4a82-938f-55b3e27fa30e">
 
-The recommened model is the tuned Random Forest model as it provided the best evaluation scores.
 
-The R squared value for this model is 0.6 which is above 0.5 and is acceptable but not ideal. A R squared value closer to 1 would be more favourable.
+## Summary of Results
 
-Furthermore, the MAE for the model indicates that the predicted target can be expected to be about 734.6 units away from the actual target. This is about 34% of the average target price.
+The Logistic Regression model with Undersampling performed the best as it achieved the best recall value on the test data without sacrificing precision too much.
+
+In this task we are trying to predict a health condition and therefore the priority was to achieve the best recall value as it's more costly to predict someone not having a stroke when they actually do have a stroke. 
+
+However, a low precision value could also be harmful because we could be giving a patient who will not have a stroke the wrong medication.
+
+Overall, the model performance can be improved by applying additional feature engineering or by introducing new features into the dataset.
+
+
 
 ## Recommendations:
 
-To achive higher R squared values and lower MAE, MSE and RSME values the dataset should be evaluated again. Columns that have little affect on the target should be dropped and new features that have better correlations to the target should be sourced.
+To achieve better rec Columns that have little affect on the target should be dropped and new features that have better correlations to the target should be sourced.
 
 ## Limitations & Next Steps
 
