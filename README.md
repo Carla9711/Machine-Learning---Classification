@@ -73,6 +73,8 @@ The Logistic Regression model with Undersampling performed the best. The results
 <img width="668" alt="Best Model_Confusion Matrix" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/a445b21c-0e9d-4745-a2fa-68511f870fba">
 
 
+
+
 <img width="275" alt="Best Model_Classification Report" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/e4b6801a-38db-4a82-938f-55b3e27fa30e">
 
 
