@@ -1,18 +1,15 @@
-# Machine-Learning---Classification
-
-# Prediction of Product Sales
-## Sales prediction for food items sold at various stores
+# Stroke Prediction
+## Predicting whether a patient is likely to have a stroke or not
 
 **Author**: Carla Cloete
 
 ### Business problem:
 
-A retailer would like to understand the properties of products and outlets that play crucial roles in increasing sales.
-
+The board of a hospital would like to predict whether a patient is likely to have a stoke or not based on demographic and health-related data
 
 ### Data:
 
-Outlet Sales Data: https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view?usp=sharing
+Stroke Prediciton Dataset: [[https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view?usp=sharing](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
 For this dataset, there were 8523 rows and 12 columns
 
