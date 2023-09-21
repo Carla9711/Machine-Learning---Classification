@@ -74,25 +74,6 @@ The Logistic Regression model with Undersampling performed the best. The results
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <img width="275" alt="Best Model_Classification Report" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/e4b6801a-38db-4a82-938f-55b3e27fa30e">
 
 
