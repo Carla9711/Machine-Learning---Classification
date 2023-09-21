@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-The board of a hospital would like to predict whether a patient is likely to have a stoke or not based on demographic and health-related data
+A hospital board of directors would like to predict whether a patient is likely to have a stoke or not based on demographic and health-related data
 
 ### Data:
 
