@@ -71,8 +71,12 @@ The Logistic Regression model with Undersampling performed the best. The results
 
 <img width="668" alt="Best Model_Confusion Matrix" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/a445b21c-0e9d-4745-a2fa-68511f870fba">
 
+
 <img width="275" alt="Best Model_Classification Report" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/e4b6801a-38db-4a82-938f-55b3e27fa30e">
 
+Key Metrics:
+* Recall (Test) = 0.82
+* Accuracy (Test) = 0.71 
 
 ## Summary of Results
 
@@ -82,20 +86,13 @@ In this task we are trying to predict a health condition and therefore the prior
 
 However, a low precision value could also be harmful because we could be giving a patient who will not have a stroke the wrong medication.
 
-Overall, the model performance can be improved by applying additional feature engineering or by introducing new features into the dataset.
-
-
 
 ## Recommendations:
 
-To achieve better rec Columns that have little affect on the target should be dropped and new features that have better correlations to the target should be sourced.
-
-## Limitations & Next Steps
-
-The analysis and modeling was limited to the dataset provided. Next step would be to consult the retailer to see if there's additional data points (i.e. features) that can be used for modeling.
+To achieve better precision and recall values, additional feature engineering steps can be applied to the data.
+Additionally, features with better correlations to the target should be sourced.
 
 
 ### For further information
-
 
 For any additional questions, please contact CLTCAR010@myuct.ac.za
