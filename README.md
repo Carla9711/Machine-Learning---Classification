@@ -34,7 +34,7 @@ For this dataset, there were 8523 rows and 12 columns
 - After the exploratory analysis, an explanatory analysis was done on each feature in relation to the target:
   - For numerical features a regression plot was plotted
   - 
-<img width="342" alt="Figure 1- Stroke vs Age" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/086e70b7-0903-43dd-85a9-8021ec493ea3">
+<img width="500" alt="Figure 1- Stroke vs Age" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/086e70b7-0903-43dd-85a9-8021ec493ea3">
 
   - For categorical features bar plots and strip plots were plotted
 <img width="313" alt="Figure 2 - Heart Disease vs Stroke" src="https://github.com/Carla9711/Machine-Learning---Classification/assets/138701194/a5b4444a-b4db-498e-9800-1b745db3617a">
