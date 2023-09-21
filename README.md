@@ -65,7 +65,7 @@ For this dataset, there were 5110 rows and 11 columns
   - Logistic Regression
   - K Nearest Neighbors
   - XGBoost Classifier
-- Various forms of undersampling, oversampling and tuning were applied to each model
+- Various forms of undersampling, oversampling, tuning and feature engineering were applied to each model
 
 The Logistic Regression model with Undersampling performed the best. The results for this model are displayed below:
 
