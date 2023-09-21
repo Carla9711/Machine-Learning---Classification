@@ -9,13 +9,24 @@ A hospital board of directors would like to predict whether a patient is likely 
 
 ### Data:
 
-Stroke Prediciton Dataset: (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+Stroke Prediciton Dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-For this dataset, there were 8523 rows and 12 columns
+For this dataset, there were 5110 rows and 11 columns
 
 **Data Dictionary**
 
-<img width="342" alt="Sales Prediction Data Dictionary" src="https://github.com/Carla9711/Prediction-of-Product-Sales/assets/138701194/bd530738-c9e2-41ff-8740-12d7ebb0fd61">
+* id: unique identifier
+* gender: "Male", "Female" or "Other"
+* age: age of the patient
+* hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
+* heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
+* ever_married: "No" or "Yes"
+* work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
+* Residence_type: "Rural" or "Urban"
+* avg_glucose_level: average glucose level in blood
+* bmi: body mass index
+* smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
+* stroke: 1 if the patient had a stroke or 0 if not
 
 
 ## Methods
