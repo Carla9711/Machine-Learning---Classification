@@ -78,8 +78,8 @@ The Logistic Regression model with Undersampling performed the best. The results
 
 
 Key Metrics:
-* Recall (Test) = 0.82
-* Accuracy (Test) = 0.71 
+* Recall (Train) = 0.82
+* Accuracy (Train) = 0.71 
 
 ## Summary of Results
 
